@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Escritório Jurídico - Visual Stúdio.props" />
+</Project>

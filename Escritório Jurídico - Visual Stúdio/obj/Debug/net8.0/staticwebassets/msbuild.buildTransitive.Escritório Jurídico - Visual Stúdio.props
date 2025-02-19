@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Escritório Jurídico - Visual Stúdio.props" />
+</Project>

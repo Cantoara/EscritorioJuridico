@@ -1,0 +1,95 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Escritório_Jurídico___Visual_Stúdio
+build_property.RootNamespace = Escritório_Jurídico___Visual_Stúdio
+build_property.ProjectDir = C:\Users\Aluno Noite\Downloads\Escrit-rio-Jur-dico---Visual-St-dio-master\Escritório Jurídico - Visual Stúdio\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Aluno Noite\Downloads\Escrit-rio-Jur-dico---Visual-St-dio-master\Escritório Jurídico - Visual Stúdio
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Aluno Noite/Downloads/Escrit-rio-Jur-dico---Visual-St-dio-master/Escritório Jurídico - Visual Stúdio/Views/Agendamento/AgendamentoUsuario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbmRhbWVudG9cQWdlbmRhbWVudG9Vc3VhcmlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno Noite/Downloads/Escrit-rio-Jur-dico---Visual-St-dio-master/Escritório Jurídico - Visual Stúdio/Views/Agendamento/CadastroAgendamento.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbmRhbWVudG9cQ2FkYXN0cm9BZ2VuZGFtZW50by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno Noite/Downloads/Escrit-rio-Jur-dico---Visual-St-dio-master/Escritório Jurídico - Visual Stúdio/Views/Agendamento/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbmRhbWVudG9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno Noite/Downloads/Escrit-rio-Jur-dico---Visual-St-dio-master/Escritório Jurídico - Visual Stúdio/Views/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno Noite/Downloads/Escrit-rio-Jur-dico---Visual-St-dio-master/Escritório Jurídico - Visual Stúdio/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno Noite/Downloads/Escrit-rio-Jur-dico---Visual-St-dio-master/Escritório Jurídico - Visual Stúdio/Views/Relatorio/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVsYXRvcmlvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno Noite/Downloads/Escrit-rio-Jur-dico---Visual-St-dio-master/Escritório Jurídico - Visual Stúdio/Views/Servico/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vydmljb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno Noite/Downloads/Escrit-rio-Jur-dico---Visual-St-dio-master/Escritório Jurídico - Visual Stúdio/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno Noite/Downloads/Escrit-rio-Jur-dico---Visual-St-dio-master/Escritório Jurídico - Visual Stúdio/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno Noite/Downloads/Escrit-rio-Jur-dico---Visual-St-dio-master/Escritório Jurídico - Visual Stúdio/Views/Usuario/Cadastro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDYWRhc3Ryby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno Noite/Downloads/Escrit-rio-Jur-dico---Visual-St-dio-master/Escritório Jurídico - Visual Stúdio/Views/Usuario/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno Noite/Downloads/Escrit-rio-Jur-dico---Visual-St-dio-master/Escritório Jurídico - Visual Stúdio/Views/Usuario/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno Noite/Downloads/Escrit-rio-Jur-dico---Visual-St-dio-master/Escritório Jurídico - Visual Stúdio/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno Noite/Downloads/Escrit-rio-Jur-dico---Visual-St-dio-master/Escritório Jurídico - Visual Stúdio/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno Noite/Downloads/Escrit-rio-Jur-dico---Visual-St-dio-master/Escritório Jurídico - Visual Stúdio/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-hi0hxsgkx6
+
+[C:/Users/Aluno Noite/Downloads/Escrit-rio-Jur-dico---Visual-St-dio-master/Escritório Jurídico - Visual Stúdio/Views/Shared/_LayoutCadastro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRDYWRhc3Ryby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-trxrxv8apz
+
+[C:/Users/Aluno Noite/Downloads/Escrit-rio-Jur-dico---Visual-St-dio-master/Escritório Jurídico - Visual Stúdio/Views/Shared/_LayoutGerenciamento.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRHZXJlbmNpYW1lbnRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-ldra7wlmma

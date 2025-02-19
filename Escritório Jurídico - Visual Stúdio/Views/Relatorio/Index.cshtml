@@ -1,0 +1,248 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutGerenciamento.cshtml";
+}
+<style>
+    /* Estilo para a box-container */
+    .box-container {
+        padding: 30px;
+        margin-bottom: 30px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        height: auto; /* Ajuste para a altura ser dinâmica */
+    }
+
+    /* Estilo para a container da página */
+    .container.page-maneger {
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        min-height: 400px; /* Altura mínima para a div */
+        height: auto; /* Deixe a altura da div crescer conforme o conteúdo */
+    }
+
+    /* Filtro Input e Select */
+    .filter-group {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+        .filter-group > div {
+            flex: 1;
+            margin-right: 10px;
+        }
+
+            .filter-group > div:last-child {
+                margin-right: 0;
+            }
+
+    .filter-input,
+    .filter-select {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        box-sizing: border-box;
+        transition: all 0.3s ease;
+    }
+
+        .filter-input:focus,
+        .filter-select:focus {
+            border-color: #4CAF50;
+            outline: none;
+        }
+
+    /* Botão de pesquisa */
+    .btn {
+        padding: 12px 25px;
+        background-color: #cdb282;
+        color: black;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn:hover {
+            background-color: #cdb282;
+        }
+
+    /* Estilos para a tabela */
+    #tabelaAgendamentos {
+        margin-top: 20px;
+        width: 100%;
+    }
+</style>
+
+<body style="background-color: #EAE7DC;">
+    <!-- Overlay e Loader -->
+    <div id="overlay" style="display: none;"></div>
+    <div id="loader" style="display: none;">
+        <i class="fa fa-spinner fa-spin"></i> Carregando...
+    </div>
+    <section class="maneger-page-section">
+        <div class="container page-maneger">
+            <!-- Removido o height: 800px aqui -->
+            <div class="add-user-button">
+                <br />
+                <h3 class="section-title cliente-title-maneger">Relatório <i class="fa fa-chart-line"></i></h3>
+            </div>
+            <section class="home" id="home">
+                <div class="filter-group">
+                    <div>
+                        <label for="campo1" style="color:#cdb282">Escolha a coluna 1:</label>
+                        <select id="campo1" class="filter-select">
+                            <option value="" selected disabled>Selecione um campo para filtrar</option>
+                            <option value="DataAtendimento">Data do Agendamento</option>
+                            <option value="Horario">Horario do Atendimento</option>
+                            <option value="TipoServico">Tipo do serviço</option>
+                            <option value="Valor">Valor do serviço</option>
+                            <option value="Nome">Nome do cliente</option>
+                            <option value="Email">Email do cliente</option>
+                            <option value="Telefone">Telefone do cliente</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="valor1" style="color:#cdb282">Filtro 1:</label>
+                        <input type="text" id="valor1" placeholder="Digite o filtro" class="filter-input">
+                    </div>
+                </div>
+                <div class="filter-group">
+                    <div>
+                        <label for="campo2" style="color:#cdb282">Escolha a coluna 2:</label>
+                        <select id="campo2" class="filter-select">
+                            <option value="" selected disabled>Selecione um campo para filtrar</option>
+                            <option value="DataAtendimento">Data do Agendamento</option>
+                            <option value="Horario">Horario do Atendimento</option>
+                            <option value="TipoServico">Tipo do serviço</option>
+                            <option value="Valor">Valor do serviço</option>
+                            <option value="Nome">Nome do cliente</option>
+                            <option value="Email">Email do cliente</option>
+                            <option value="Telefone">Telefone do cliente</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="valor2" style="color:#cdb282">Filtro 2:</label>
+                        <input type="text" id="valor2" placeholder="Digite o filtro" class="filter-input">
+                    </div>
+                </div>
+                <div class="filter-group">
+                    <div>
+                        <label for="campo3" style="color:#cdb282">Escolha a coluna 3:</label>
+                        <select id="campo3" class="filter-select">
+                            <option value="" selected disabled>Selecione um campo para filtrar</option>
+                            <option value="DataAtendimento">Data do Agendamento</option>
+                            <option value="Horario">Horario do Atendimento</option>
+                            <option value="TipoServico">Tipo do serviço</option>
+                            <option value="Valor">Valor do serviço</option>
+                            <option value="Nome">Nome do cliente</option>
+                            <option value="Email">Email do cliente</option>
+                            <option value="Telefone">Telefone do cliente</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="valor3" style="color:#cdb282">Filtro 3:</label>
+                        <input type="text" id="valor3" placeholder="Digite o filtro" class="filter-input">
+                    </div>
+                </div>
+                <button id="pesquisarBtn" class="btn" onclick="filtrarAgendamentos()">Pesquisar</button>
+
+                <!-- Tabela para exibir os agendamentos -->
+                <div class="box-container">
+                    <table id="tabelaAgendamentos" class="table table-striped"></table>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <!-- Inclusão do jQuery e DataTables -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.2.2/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.2.2/js/buttons.html5.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.70/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.70/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.2.2/js/buttons.pdfMake.min.js"></script>
+
+
+    <script>
+
+        function filtrarAgendamentos() {
+            var campo1 = $('#campo1').val();
+            var campo2 = $('#campo2').val();
+            var campo3 = $('#campo3').val();
+            var valor1 = $('#valor1').val();
+            var valor2 = $('#valor2').val();
+            var valor3 = $('#valor3').val();
+
+            console.log(campo1, campo2, campo3, valor1, valor2, valor3);
+
+            // Fazer a requisição AJAX para filtrar os agendamentos
+            $.ajax({
+                url: '/Relatorio/GetAgendamentos',  // Substitua 'SeuController' pelo nome do seu controller
+                type: 'GET',
+                data: {
+                    campo1: campo1,
+                    campo2: campo2,
+                    campo3: campo3,
+                    valor1: valor1,
+                    valor2: valor2,
+                    valor3: valor3
+                },
+                success: function (resultado) {
+                    console.log('Resultado:', resultado);  // Verifique o que está sendo retornado
+                    if (resultado && resultado.length > 0) {
+                        $('#tabelaAgendamentos').DataTable({
+                            destroy: true,  // Permite reinicializar a tabela ao aplicar novos filtros
+                            data: resultado,
+                            columns: [
+                                { title: 'Data do Agendamento', data: 'dataAtendimento' },
+                                { title: 'Horario do Atendimento', data: 'horario' },
+                                { title: 'Tipo do Serviço', data: 'tipoServico' },
+                                { title: 'Valor do Serviço', data: 'valor' },
+                                { title: 'Nome do Cliente', data: 'nome' },
+                                { title: 'Email do Cliente', data: 'email' },
+                                { title: 'Telefone do Cliente', data: 'telefone' }
+                            ],
+                            language: {
+                                url: 'https://cdn.datatables.net/plug-ins/1.10.21/i18n/Portuguese.json'
+                            },
+                            dom: 'Bfrtip', // Adiciona a barra de botões no topo
+                            buttons: [
+                                {
+                                    extend: 'excelHtml5', // Adiciona a funcionalidade de exportar para Excel
+                                    text: 'Exportar para Excel',  // Texto do botão
+                                    title: 'Relatório Agendamentos'  // Nome do arquivo Excel
+                                },
+                                {
+                                    extend: 'pdfHtml5',  // Adiciona a funcionalidade de exportar para PDF
+                                    text: 'Exportar para PDF',  // Texto do botão
+                                    title: 'Relatório Agendamentos',  // Nome do arquivo PDF
+                                    orientation: 'landscape',  // Formato da página (paisagem ou retrato)
+                                    pageSize: 'A4',  // Tamanho da página
+                                    customize: function (doc) {
+                                        doc.styles.tableHeader.fontSize = 10; // Define o tamanho da fonte do cabeçalho
+                                        doc.styles.tableBodyOdd.fontSize = 9;  // Define o tamanho da fonte para as linhas ímpares
+                                        doc.styles.tableBodyEven.fontSize = 9;  // Define o tamanho da fonte para as linhas pares
+                                    }
+                                }
+                            ]
+                        });
+                    }
+                    else {
+                        alert('Nenhum agendamento encontrado.');
+                    }
+                },
+                error: function (xhr, status, error) {
+                    console.error('Erro ao buscar agendamentos:', error);
+                }
+            });
+        }
+    </script>
+</body>
+

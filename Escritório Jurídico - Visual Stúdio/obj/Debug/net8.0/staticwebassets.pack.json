@@ -1,0 +1,737 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Escritório Jurídico - Visual Stúdio.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Escritório Jurídico - Visual Stúdio.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\css\\submenu.css",
+      "PackagePath": "staticwebassets\\css\\submenu.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\About\\escritorio-de-advocacia.jpeg",
+      "PackagePath": "staticwebassets\\images\\About\\escritorio-de-advocacia.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\Blogs\\Consumidor.jpg",
+      "PackagePath": "staticwebassets\\images\\Blogs\\Consumidor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\Blogs\\Empresa veículo.jpg",
+      "PackagePath": "staticwebassets\\images\\Blogs\\Empresa veículo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\Blogs\\Imobiliário.jpg",
+      "PackagePath": "staticwebassets\\images\\Blogs\\Imobiliário.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\Blogs\\STF.jpg",
+      "PackagePath": "staticwebassets\\images\\Blogs\\STF.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\Blogs\\STJ.jpg",
+      "PackagePath": "staticwebassets\\images\\Blogs\\STJ.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\Blogs\\TST.jpg",
+      "PackagePath": "staticwebassets\\images\\Blogs\\TST.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\Blogs\\blog-1.png",
+      "PackagePath": "staticwebassets\\images\\Blogs\\blog-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\Blogs\\blog-2.png",
+      "PackagePath": "staticwebassets\\images\\Blogs\\blog-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\Blogs\\blog-3.png",
+      "PackagePath": "staticwebassets\\images\\Blogs\\blog-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\Blogs\\blog-4.png",
+      "PackagePath": "staticwebassets\\images\\Blogs\\blog-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\Blogs\\blog-5.png",
+      "PackagePath": "staticwebassets\\images\\Blogs\\blog-5.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\Home\\Logo - Advocacia.jpeg",
+      "PackagePath": "staticwebassets\\images\\Home\\Logo - Advocacia.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\Portfolio\\Direito Consumidor.jpg",
+      "PackagePath": "staticwebassets\\images\\Portfolio\\Direito Consumidor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\Portfolio\\Direito Empresarial.jpg",
+      "PackagePath": "staticwebassets\\images\\Portfolio\\Direito Empresarial.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\Portfolio\\Direito Previdenciário.jpg",
+      "PackagePath": "staticwebassets\\images\\Portfolio\\Direito Previdenciário.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\Portfolio\\Direito de Família.jpg",
+      "PackagePath": "staticwebassets\\images\\Portfolio\\Direito de Família.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\Portfolio\\Direito-trabalho.jpg",
+      "PackagePath": "staticwebassets\\images\\Portfolio\\Direito-trabalho.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\Portfolio\\direito-imobiliario.jpg",
+      "PackagePath": "staticwebassets\\images\\Portfolio\\direito-imobiliario.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\Portfolio\\portfolio-1.png",
+      "PackagePath": "staticwebassets\\images\\Portfolio\\portfolio-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\Portfolio\\portfolio-2.png",
+      "PackagePath": "staticwebassets\\images\\Portfolio\\portfolio-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\Portfolio\\portfolio-3.png",
+      "PackagePath": "staticwebassets\\images\\Portfolio\\portfolio-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\Portfolio\\portfolio-4.png",
+      "PackagePath": "staticwebassets\\images\\Portfolio\\portfolio-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\Portfolio\\portfolio-5.png",
+      "PackagePath": "staticwebassets\\images\\Portfolio\\portfolio-5.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\Portfolio\\portfolio-6.png",
+      "PackagePath": "staticwebassets\\images\\Portfolio\\portfolio-6.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\Testimonials\\André Santos - Imovel.jpg",
+      "PackagePath": "staticwebassets\\images\\Testimonials\\André Santos - Imovel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\Testimonials\\Antônio José - Previdenciário.jpg",
+      "PackagePath": "staticwebassets\\images\\Testimonials\\Antônio José - Previdenciário.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\Testimonials\\Bruno Silva - Trabalho.jpg",
+      "PackagePath": "staticwebassets\\images\\Testimonials\\Bruno Silva - Trabalho.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\Testimonials\\Família Bernades.jpg",
+      "PackagePath": "staticwebassets\\images\\Testimonials\\Família Bernades.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\Testimonials\\Marcelo.jpg",
+      "PackagePath": "staticwebassets\\images\\Testimonials\\Marcelo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\Testimonials\\Mônica Veloso - Empresária.jpg",
+      "PackagePath": "staticwebassets\\images\\Testimonials\\Mônica Veloso - Empresária.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\Testimonials\\Valéria Duarte - consumidora.jpg",
+      "PackagePath": "staticwebassets\\images\\Testimonials\\Valéria Duarte - consumidora.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\Testimonials\\pic-1.png",
+      "PackagePath": "staticwebassets\\images\\Testimonials\\pic-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\Testimonials\\pic-2.png",
+      "PackagePath": "staticwebassets\\images\\Testimonials\\pic-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\Testimonials\\pic-3.png",
+      "PackagePath": "staticwebassets\\images\\Testimonials\\pic-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\Testimonials\\pic-4.png",
+      "PackagePath": "staticwebassets\\images\\Testimonials\\pic-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\images\\Testimonials\\pic-5.png",
+      "PackagePath": "staticwebassets\\images\\Testimonials\\pic-5.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\js\\blog-slider.js",
+      "PackagePath": "staticwebassets\\js\\blog-slider.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\js\\counter-up.js",
+      "PackagePath": "staticwebassets\\js\\counter-up.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\js\\portfolio.js",
+      "PackagePath": "staticwebassets\\js\\portfolio.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\js\\scroll-spy.js",
+      "PackagePath": "staticwebassets\\js\\scroll-spy.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\js\\testi-slider.js",
+      "PackagePath": "staticwebassets\\js\\testi-slider.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap-icons\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap-icons\\bootstrap-icons.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\bootstrap-icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\boxicons\\css\\animations.css",
+      "PackagePath": "staticwebassets\\lib\\boxicons\\css\\animations.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\boxicons\\css\\boxicons.css",
+      "PackagePath": "staticwebassets\\lib\\boxicons\\css\\boxicons.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\boxicons\\css\\boxicons.min.css",
+      "PackagePath": "staticwebassets\\lib\\boxicons\\css\\boxicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\boxicons\\css\\transformations.css",
+      "PackagePath": "staticwebassets\\lib\\boxicons\\css\\transformations.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\boxicons\\fonts\\boxicons.eot",
+      "PackagePath": "staticwebassets\\lib\\boxicons\\fonts\\boxicons.eot"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\boxicons\\fonts\\boxicons.svg",
+      "PackagePath": "staticwebassets\\lib\\boxicons\\fonts\\boxicons.svg"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\boxicons\\fonts\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\lib\\boxicons\\fonts\\boxicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\boxicons\\fonts\\boxicons.woff",
+      "PackagePath": "staticwebassets\\lib\\boxicons\\fonts\\boxicons.woff"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\boxicons\\fonts\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\lib\\boxicons\\fonts\\boxicons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\glightbox\\css\\glightbox.css",
+      "PackagePath": "staticwebassets\\lib\\glightbox\\css\\glightbox.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\glightbox\\css\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\lib\\glightbox\\css\\glightbox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\glightbox\\css\\plyr.css",
+      "PackagePath": "staticwebassets\\lib\\glightbox\\css\\plyr.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\glightbox\\css\\plyr.min.css",
+      "PackagePath": "staticwebassets\\lib\\glightbox\\css\\plyr.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\glightbox\\js\\glightbox.js",
+      "PackagePath": "staticwebassets\\lib\\glightbox\\js\\glightbox.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\glightbox\\js\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\lib\\glightbox\\js\\glightbox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\lib\\swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\lib\\swiper\\swiper-bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\swiper\\swiper-bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\php\\smtp\\PHPMailerAutoload.php",
+      "PackagePath": "staticwebassets\\php\\smtp\\PHPMailerAutoload.php"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\php\\smtp\\class.phpmailer.php",
+      "PackagePath": "staticwebassets\\php\\smtp\\class.phpmailer.php"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\php\\smtp\\class.smtp.php",
+      "PackagePath": "staticwebassets\\php\\smtp\\class.smtp.php"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\php\\submit.php",
+      "PackagePath": "staticwebassets\\php\\submit.php"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\css\\all.css",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\css\\all.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\css\\brands.css",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\css\\brands.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\css\\brands.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\css\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\css\\regular.css",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\css\\regular.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\css\\regular.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\css\\solid.css",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\css\\solid.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\css\\solid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\css\\v4-shims.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\js\\all.js",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\js\\all.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\js\\all.min.js",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\js\\all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\js\\brands.js",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\js\\brands.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\js\\brands.min.js",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\js\\brands.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\js\\conflict-detection.js",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\js\\conflict-detection.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\js\\conflict-detection.min.js",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\js\\conflict-detection.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\js\\fontawesome.js",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\js\\fontawesome.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\js\\fontawesome.min.js",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\js\\fontawesome.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\js\\regular.js",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\js\\regular.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\js\\regular.min.js",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\js\\regular.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\js\\solid.js",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\js\\solid.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\js\\solid.min.js",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\js\\solid.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\js\\v4-shims.js",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\js\\v4-shims.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\js\\v4-shims.min.js",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\js\\v4-shims.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\vendors\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\jquery\\jquery-3.6.0.js",
+      "PackagePath": "staticwebassets\\vendors\\jquery\\jquery-3.6.0.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\magnific-popup\\jquery.magnific-popup.js",
+      "PackagePath": "staticwebassets\\vendors\\magnific-popup\\jquery.magnific-popup.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\magnific-popup\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\vendors\\magnific-popup\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\swiper\\swiper.css",
+      "PackagePath": "staticwebassets\\vendors\\swiper\\swiper.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\swiper\\swiper.js",
+      "PackagePath": "staticwebassets\\vendors\\swiper\\swiper.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno Noite\\Downloads\\Escrit-rio-Jur-dico---Visual-St-dio-master\\Escritório Jurídico - Visual Stúdio\\wwwroot\\vendors\\typed\\typed.js",
+      "PackagePath": "staticwebassets\\vendors\\typed\\typed.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Escritório Jurídico - Visual Stúdio.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Escritório Jurídico - Visual Stúdio.props",
+      "PackagePath": "build\\Escritório Jurídico - Visual Stúdio.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Escritório Jurídico - Visual Stúdio.props",
+      "PackagePath": "buildMultiTargeting\\Escritório Jurídico - Visual Stúdio.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Escritório Jurídico - Visual Stúdio.props",
+      "PackagePath": "buildTransitive\\Escritório Jurídico - Visual Stúdio.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

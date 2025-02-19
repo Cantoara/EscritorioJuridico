@@ -1,0 +1,387 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+    Layout = "~/Views/Shared/_LayoutGerenciamento.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: center;
+        }
+
+        .dashboard-header {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .box-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .box {
+            width: 250px;
+            height: 80px;
+            background-color: #A65F3C;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+            margin-bottom: 5px;
+        }
+
+        .small-box {
+            width: 200px;
+            height: 40px;
+            background-color: #cc7254;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            font-weight: bold;
+            color: white;
+            border-radius: 5px;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        select {
+            padding: 8px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        #chart-container {
+            width: 80%;
+            margin: auto;
+            height: 400px;
+        }
+    </style>
+</head>
+<body style="background-color: #EAE7DC;">
+    <!-- Cabeçalho com 3 divs grandes e o select -->
+    <div class="container" style="padding: 20px; border: 2px solid #A65F3C; width: 1500px; margin: 0 auto;">
+
+        <label for="anoSelect" style="font-size: 18px; color: #A65F3C; font-weight: bold;">Selecione o Ano</label>
+        <select id="anoSelect" onchange="mudarAno()" style="padding: 10px; border-radius: 5px; border: 1px solid #A65F3C; font-size: 16px; background-color: white!important; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); width: 300px;">
+        </select>
+    </div>
+
+    <div class="container" style="padding: 20px; border: 2px solid #A65F3C; width: 1500px; margin: 0 auto;">
+        <h2 style="color: black !important; font-size: 24px; text-align: center; margin-bottom: 20px;">Indicadores Globais</h2>
+        <div class="dashboard-header">
+            <!-- Caixa para o total de usuários cadastrados -->
+            <div class="box-container">
+                <div class="box">Usuarios:</div>
+                <div class="small-box" id="totalUsuarios">Carregando...</div>
+            </div>
+
+            <!-- Caixa para o total de agendamentos -->
+            <div class="box-container">
+                <div class="box">Agendamentos:</div>
+                <div class="small-box" id="totalAgendamentos">Carregando...</div>
+            </div>
+
+            <!-- Caixa para o lucro total -->
+            <div class="box-container">
+                <div class="box">Lucro:</div>
+                <div class="small-box" id="lucroTotal">Carregando...</div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Divs para os gráficos -->
+    <div class="container" style="padding: 20px; border: 2px solid #000; width: 1500px; margin: 0 auto; background-color:#cc7254">
+        <h2 style="color: black !important; font-size: 24px; text-align: center; margin-bottom: 20px;">Indicadores Especificos</h2>
+
+        <div style="display: flex; justify-content: space-between;">
+            <div id="graficoAgendamentos" style="height: 400px; width: 400px;"></div>
+            <div id="graficoUsuarios" style="height: 400px; width: 400px;"></div>
+            <div id="graficoLucros" style="height: 400px; width: 400px;"></div>
+        </div>
+        <br />
+        <div style="display: flex; justify-content: space-between;">
+            <div id="container"></div>
+            <div id="grafico"></div>
+        </div>
+    </div>
+
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            var anoAtual = new Date().getFullYear();
+
+            // Preencher o select com o ano atual e os dois anos anteriores
+            for (var i = 0; i < 3; i++) {
+                var ano = anoAtual - i;
+                $('#anoSelect').append(new Option(ano, ano)); // Adiciona cada ano como opção
+            }
+
+            // Define o ano atual como o selecionado por padrão
+            $('#anoSelect').val(anoAtual);
+
+
+            contarAgendamentosPorAno(anoAtual);
+            contarUsuariosPorAno(anoAtual);
+            somarLucroPorAno(anoAtual);
+            carregarGraficoAgendamentos(anoAtual);
+            carregarGraficoUsuarios(anoAtual);
+            carregarGraficoLucros(anoAtual);
+            carregarGraficoPizza(anoAtual)
+        });
+
+
+        function mudarAno() {
+            var anoSelecionado = document.getElementById('anoSelect').value;  // Obtém o valor do ano selecionado
+
+            // Chama as funções passando o ano selecionado
+            contarAgendamentosPorAno(anoSelecionado);
+            contarUsuariosPorAno(anoSelecionado);
+            somarLucroPorAno(anoSelecionado);
+            carregarGraficoAgendamentos(anoSelecionado);
+            carregarGraficoUsuarios(anoSelecionado);
+            carregarGraficoLucros(anoSelecionado);
+            carregarGraficoPizza(anoSelecionado)
+        }
+
+        // Função para contar agendamentos por ano
+        function contarAgendamentosPorAno() {
+            var ano = $('#anoSelect').val();  // Obtém o valor do ano do input
+            $.ajax({
+                url: '/Dashboard/ContarAgendamentosPorAno',  // URL da action
+                type: 'GET',
+                data: { ano: ano },
+                success: function (data) {
+                    $('#totalAgendamentos').text('Total de Agendamentos: ' + data);  // Exibe o resultado na página
+                },
+                error: function (xhr, status, error) {
+                    console.error('Erro na chamada Ajax:', status, error);
+                }
+            });
+        }
+
+        // Função para contar usuários por ano
+        function contarUsuariosPorAno() {
+            var ano = $('#anoSelect').val();  // Obtém o valor do ano do input
+            $.ajax({
+                url: '/Dashboard/ContarUsuariosPorAno',  // URL da action
+                type: 'GET',
+                data: { ano: ano },
+                success: function (data) {
+                    $('#totalUsuarios').text('Total de Usuários: ' + data);
+                },
+                error: function (xhr, status, error) {
+                    console.error('Erro na chamada Ajax:', status, error);
+                }
+            });
+        }
+
+        // Função para somar lucro por ano
+        function somarLucroPorAno() {
+            var ano = $('#anoSelect').val();  // Obtém o valor do ano do input
+            $.ajax({
+                url: '/Dashboard/SomarLucroPorAno',  // URL da action
+                type: 'GET',
+                data: { ano: ano },
+                success: function (data) {
+                    $('#lucroTotal').text('Lucro Total: ' + data);
+                },
+                error: function (xhr, status, error) {
+                    console.error('Erro na chamada Ajax:', status, error);
+                }
+            });
+        }
+
+        // Função para carregar os dados e gerar o gráfico de agendamentos por mês
+        function carregarGraficoAgendamentos(ano) {
+            $.getJSON('@Url.Action("ContarAgendamentosPorMes", "Dashboard")', { ano: ano }, function (dados) {
+                Highcharts.chart('graficoAgendamentos', {
+                    chart: {
+                        type: 'column',
+                        borderColor: 'black',  // Cor da borda
+                        borderWidth: 2        // Largura da borda
+                    },
+                    title: {
+                        text: 'Agendamentos por Mês'
+                    },
+                    xAxis: {
+                        categories: dados.categorias // Meses
+                    },
+                    yAxis: {
+                        title: {
+                            text: 'Total de Agendamentos'
+                        }
+                    },
+                    series: dados.series // Dados dos agendamentos
+                });
+            });
+        }
+
+        // Função para carregar os dados e gerar o gráfico de usuários cadastrados por mês
+        function carregarGraficoUsuarios(ano) {
+            $.getJSON('@Url.Action("ContarUsuariosPorMes", "Dashboard")', { ano: ano }, function (dados) {
+                Highcharts.chart('graficoUsuarios', {
+                    chart: {
+                        type: 'column',
+                        borderColor: 'black',  // Cor da borda
+                        borderWidth: 2        // Largura da borda
+                    },
+                    title: {
+                        text: 'Usuários Cadastrados por Mês'
+                    },
+                    xAxis: {
+                        categories: dados.categorias // Meses
+                    },
+                    yAxis: {
+                        title: {
+                            text: 'Total de Usuários'
+                        }
+                    },
+                    series: dados.series // Dados dos usuários
+                });
+            });
+        }
+
+        // Função para carregar os dados e gerar o gráfico de lucros por mês
+        function carregarGraficoLucros(ano) {
+            $.getJSON('@Url.Action("SomarLucroPorMes", "Dashboard")', { ano: ano }, function (dados) {
+                Highcharts.chart('graficoLucros', {
+                    chart: {
+                        type: 'column',
+                        borderColor: 'black',  // Cor da borda
+                        borderWidth: 2        // Largura da borda
+                    },
+                    title: {
+                        text: 'Lucro por Mês'
+                    },
+                    xAxis: {
+                        categories: dados.categorias // Meses
+                    },
+                    yAxis: {
+                        title: {
+                            text: 'Lucro (R$)'
+                        }
+                    },
+                    series: dados.series // Dados do lucro
+                });
+            });
+        }
+
+        function carregarGraficoPizza(ano) {
+            $.getJSON('@Url.Action("SomarServicosMaisUsadosPorAno", "Dashboard")', { ano: ano }, function (dados) {
+                // Verifica se os dados estão presentes
+                if (dados && dados.categorias && dados.series) {
+                    // Prepara os dados para o gráfico
+                    var categorias = dados.categorias;  // Lista de serviços (nomes ou tipos dos serviços)
+                    var valores = dados.series[0].data.map(item => item.y);  // Quantidade de usos dos serviços
+
+                    // Cria o gráfico de pizza usando Highcharts
+                    Highcharts.chart('container', {
+                        chart: {
+                            type: 'pie',  // Tipo de gráfico: pizza
+                            borderColor: 'black',  // Cor da borda
+                            borderWidth: 2        // Largura da borda
+                        },
+                        title: {
+                            text: `Serviços Mais Usados em ${ano}`  // Título do gráfico
+                        },
+                        tooltip: {
+                            pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'  // Exibe a porcentagem de cada fatia
+                        },
+                        series: [{
+                            name: 'Serviços Mais Usados',
+                            data: categorias.map((categoria, index) => ({
+                                name: categoria,  // Nome do serviço
+                                y: valores[index]  // Quantidade de vezes que o serviço foi usado
+                            }))
+                        }],
+                        plotOptions: {
+                            pie: {
+                                dataLabels: {
+                                    enabled: true,  // Habilita rótulos de dados
+                                    format: '{point.name}: {point.percentage:.1f}%'  // Exibe a porcentagem ao lado de cada fatia
+                                }
+                            }
+                        }
+                    });
+                } else {
+                    console.error("Dados inválidos recebidos:", dados);
+                }
+            })
+                .fail(function (xhr, status, error) {
+                    console.error("Erro ao carregar os dados do gráfico:", error);
+                });
+        }
+
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            // Faz a requisição para pegar os dados da evolução mensal
+            $.getJSON('/Dashboard/ConsultarEvolucaoMensalPorAno', function (data) {
+                console.log(data);  // Verifique os dados recebidos no console
+
+                // Verifique se as categorias e as séries estão corretamente preenchidas
+                if (data && data.categorias && data.series) {
+                    // Cria o gráfico Highcharts
+                    Highcharts.chart('grafico', {
+                        chart: {
+                            type: 'line',  // Tipo de gráfico: linha
+                            borderColor: 'black',  // Cor da borda
+                            borderWidth: 2        // Largura da borda
+                        },
+                        title: {
+                            text: 'Evolução Mensal dos Atendimentos por Ano'  // Título do gráfico
+                        },
+                        xAxis: {
+                            categories: data.categorias,  // Meses (01, 02, ..., 12)
+                            title: {
+                                text: 'Meses'
+                            }
+                        },
+                        yAxis: {
+                            title: {
+                                text: 'Total de Atendimentos'
+                            }
+                        },
+                        series: data.series,  // Dados das séries por ano
+                        tooltip: {
+                            shared: true,  // Mostra todos os pontos de dados ao passar o mouse
+                            valueSuffix: ' atendimentos'  // Sufixo para os valores
+                        }
+                    });
+                } else {
+                    console.error("Dados inválidos recebidos:", data);
+                }
+            })
+                .fail(function (xhr, status, error) {
+                    console.error("Erro ao carregar os dados do gráfico:", error);
+                });
+        });
+
+    </script>
+
+</body>
+</html>
